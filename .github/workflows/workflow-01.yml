@@ -24,7 +24,7 @@ jobs:
     - name: dotnet build
       run: dotnet build '${{ env.AZURE_WEBAPP_PACKAGE_PATH }}/APINetCore.sln' --configuration Release
     - name : dotnet publish
-      run: dotnet publish -c Release -o out
+      run: dotnet publish '${{ env.AZURE_WEBAPP_PACKAGE_PATH }}/APINetCore.sln' -c Release -o out
     - name: Azure WebApp
       uses: Azure/webapps-deploy@v2
       with:
