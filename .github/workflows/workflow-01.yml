@@ -23,8 +23,8 @@ jobs:
         dotnet-version: 3.1.101
     - name: dotnet build and publish
       run: |
-          dotnet build '${{ env.AZURE_WEBAPP_PACKAGE_PATH }}/APINetCore.sln' --configuration Release
-          dotnet publish -c Release -o '${{ env.AZURE_WEBAPP_PACKAGE_PATH }}/out' 
+          dotnet build './${{ env.AZURE_WEBAPP_PACKAGE_PATH }}/APINetCore.sln' --configuration Release
+          dotnet publish -c Release -o './${{ env.AZURE_WEBAPP_PACKAGE_PATH }}/out' 
     
     - name: Azure WebApp
       uses: Azure/webapps-deploy@v2
