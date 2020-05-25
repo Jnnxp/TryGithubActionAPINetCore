@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "43qJNadxANnAu1i+uFmVFA0yxwZyczPUgkMm2n4FWaGcvnkKkpqyIAH8hgk8G52jYoyUgnVpTxKbMD0gLLxDaA==",
+  "success": true,
+  "projectFilePath": "C:\\ws\\github\\Jnnxp\\TryGithubActionAPINetCore\\APINetCore\\APINetCore\\APINetCore.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jnn\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
